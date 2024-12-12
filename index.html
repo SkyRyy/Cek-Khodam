@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Khodam</title>
+    <link href="./assets/style.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>👻Cek Khodam👻</h1>
+            <p>Cek khodam yang ada di dalam diri kamu</p>
+            <div class="ngecek">
+                <form>
+                    <input type="text" id="search" placeholder="Masukan nama"><br>
+                    <button type="submit" id="btn-search" onClick="cekKhodam(event)">Terawang</button>
+                </form>
+            </div>
+            <div class="loading" id="loading">Loading...</div>
+            <div class="loading1" id="loading1">Sebentar yaa lagi dicek nih</div>
+            <div class="hasil" id="hasil">
+                <p id="khodamnya">Nama - Khodam kamu</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
